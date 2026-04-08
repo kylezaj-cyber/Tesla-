@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elon Musk Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand">Musk<span>Vision</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#companies">Businesses</a>
+          <a href="#tesla">Tesla</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Elon Musk</p>
+            <h1>Transforming transportation, space, and sustainable energy.</h1>
+            <p>
+              Visionary entrepreneur, CEO of Tesla and SpaceX, founder of Neuralink,
+              and leader in cutting-edge innovation. Explore the mission, brands,
+              and outreach of one of the world's most impactful leaders.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn primary">Reach Out</a>
+              <a href="#tesla" class="btn secondary">Explore Tesla</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-card-inner">
+              <p class="stat-label">Net Worth</p>
+              <h2>$200B+</h2>
+              <p>Leading innovation across electric vehicles, rockets, and AI.</p>
+              <div class="hero-stats">
+                <div>
+                  <span>CEO</span>
+                  <strong>Tesla, SpaceX</strong>
+                </div>
+                <div>
+                  <span>Founded</span>
+                  <strong>2002</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container split-grid">
+          <div>
+            <p class="section-overline">About Elon</p>
+            <h2>Leading the future with bold ambition.</h2>
+            <p>
+              Elon Musk is recognized for turning ambitious ideas into thriving
+              companies that solve global challenges. From electric mobility to
+              human space travel, his work is driven by a mission to make life multi-planetary
+              and sustainable.
+            </p>
+          </div>
+          <div class="info-cards">
+            <article class="info-card">
+              <h3>SpaceX</h3>
+              <p>Developing reusable rockets, satellite internet, and interplanetary travel.</p>
+            </article>
+            <article class="info-card">
+              <h3>Neuralink</h3>
+              <p>Merging human intelligence with AI through advanced brain-computer interfaces.</p>
+            </article>
+            <article class="info-card">
+              <h3>The Boring Company</h3>
+              <p>Reinventing transportation infrastructure with high-speed tunnel systems.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section accent" id="companies">
+        <div class="container">
+          <p class="section-overline">Global Impact</p>
+          <h2>Companies that define the next era.</h2>
+          <div class="cards-grid">
+            <article class="brand-card">
+              <h3>Tesla</h3>
+              <p>Leading the transition to sustainable energy with electric vehicles,
+                solar power, and energy storage solutions.</p>
+            </article>
+            <article class="brand-card">
+              <h3>SpaceX</h3>
+              <p>Enabling affordable space exploration with reusable rockets and satellite technology.</p>
+            </article>
+            <article class="brand-card">
+              <h3>Starlink</h3>
+              <p>Delivering fast, reliable internet access to remote communities worldwide.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tesla">
+        <div class="container split-grid reverse">
+          <div class="tesla-copy">
+            <p class="section-overline">Tesla</p>
+            <h2>Reimagining transportation for the electric age.</h2>
+            <p>
+              Tesla has accelerated the world's shift to sustainable transport with compelling
+              electric vehicles, autonomous driving technology, and a global charging network.
+            </p>
+            <ul class="feature-list">
+              <li>Model S, Model 3, Model X, and Model Y deliver world-class performance.</li>
+              <li>Autopilot and Full Self-Driving push the boundaries of next-generation mobility.</li>
+              <li>Solar and Powerwall solutions create an ecosystem of clean energy.</li>
+            </ul>
+          </div>
+          <div class="tesla-visual">
+            <div class="visual-card">
+              <span>Innovation</span>
+              <h3>Electric performance with intelligent design.</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-panel">
+              <p class="section-overline">Contact</p>
+              <h2>Get in touch with Elon Musk's team.</h2>
+              <p>
+                For partnerships, media inquiries, or mission-driven collaborations,
+                connect through the executives and innovation offices that support his global vision.
+              </p>
+              <div class="contact-cards">
+                <article>
+                  <h3>Public Relations</h3>
+                  <p>press@elonmusk.com</p>
+                </article>
+                <article>
+                  <h3>Business Inquiries</h3>
+                  <p>business@tesla.com</p>
+                </article>
+                <article>
+                  <h3>Office</h3>
+                  <p>1700 Amphitheatre Parkway, Mountain View, CA</p>
+                </article>
+              </div>
+            </div>
+            <div class="contact-forms">
+              <form class="contact-form" id="contactForm">
+                <label>
+                  Name
+                  <input type="text" name="contactName" placeholder="Your name" required />
+                </label>
+                <label>
+                  Email
+                  <input type="email" name="contactEmail" placeholder="you@example.com" required />
+                </label>
+                <label>
+                  Message
+                  <textarea name="contactMessage" rows="5" placeholder="Write your message" required></textarea>
+                </label>
+                <button class="btn primary" type="submit">Send Message</button>
+                <div class="form-status" id="contactFormStatus" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Elon Musk Portfolio • Vision, leadership, and innovation.</p>
+        <div class="footer-links">
+          <a href="#home">Top</a>
+          <a href="#companies">Companies</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
